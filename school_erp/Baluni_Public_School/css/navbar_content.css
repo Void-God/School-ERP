@@ -1,0 +1,89 @@
+.nav-adjest-auto {
+  padding : 1% 2% 0% 0%;
+  font-size : 17px;  
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.modal_bk_color {
+  background-color: #e38e19;
+}
+form > input, form > select {
+  margin-bottom:3%;
+}
+.body_background {
+  background-image: url("images/backg1.jpg");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  height:300px;
+  max-width:auto;  
+}
+.nav-margin-zero {
+  margin-bottom : 0px;
+}
+.avatar-property {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:150px; 
+  height:150px;
+}
+h4 {
+  font-weight:bold;
+}
+
+.magin-botton button {
+
+  margin : 10px;
+}
+.height-fix {
+  max-height:575px;
+  height:auto;
+  overflow-x:auto;
+}
+.hide {
+  display: none;
+}
+.input_bottom_pad input{
+
+  margin-bottom:3%;
+}
+  @font-face {
+    font-family: KrutiDev;
+    src: url(fonts/K11.TTF);
+  }  
+
+
+.dropdown-menu > li > a {
+    height:35px;
+    display: block;
+    font-size:17px;
+    font-weight: 600;
+    font-family:serif;
+    color: blue !important;
+    background: #55CC06 none repeat scroll 0% 0%;
+} 
+
+.dropdown-menu li:hover {
+  background:black !important;
+}
+
+
+
+.notice_back_to_all {
+    display: block;
+    width: 100%;
+    height:100px !important;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/notice/notice_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center none;
+    float:left;
+    font-family: sans-serif;
+} 

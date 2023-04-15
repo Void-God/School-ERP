@@ -1,0 +1,365 @@
+.table_to_fix_with_device {
+  height:450px;
+  width:85% !important;
+  overflow-y:auto;
+  margin:0 auto;
+}
+
+@media only screen and (max-width: 767px) and (min-width:600px) {
+  .table_to_fix_with_device {
+    height:450px;
+    width:95% !important;
+    overflow-y:auto !important;
+    margin:0 auto;
+  }
+}
+@media only screen and (max-width: 600px) and (min-width:480px) {
+  .table_to_fix_with_device {
+    height:450px;
+    width:95% !important;
+    overflow-y:auto !important;
+    margin:0 auto;
+  }
+}
+@media only screen and (max-width: 480px) and (min-width:0px) {
+  .table_to_fix_with_device {
+    height:450px;
+    width:95%;
+    overflow-y:auto !important;
+    margin:0 auto;
+  }
+}
+thead > tr {background-color: #009879};
+tr:nth-child(odd) {background-color:lightblue;}
+tr:nth-child(even) {background-color: darkblue;color:white;}
+
+table > tbody > tr > th 
+{
+  text-align:center;
+}
+
+.style_border
+{
+  border : 2px solid black;
+}
+
+.wheat_border {
+  border: 1px solid wheat;
+}
+.back_img_for_att {
+  font-family:serif;
+}
+
+@media only screen and (min-width:1200px) {
+  .back_img_for_att {
+    background-image:url(images/attendance/attendance.jpg);
+    display: block;
+      max-width: 100%;
+      height:570px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+  @media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .back_img_for_att {
+    background-image:url(images/attendance/attendance_sml.jpg);
+    display: block;
+      max-width: 100%;
+      height:570px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 780px) {
+  .back_img_for_att {
+    background-color: wheat;
+    background-image:url(images/attendance/attendance_xm.jpg);
+    display: block;
+      max-width: 100%;
+      height:1200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+
+@media only screen and (max-width: 780px) and (min-width: 675px) {
+  .back_img_for_att {
+    background-image:url(images/attendance/attendance_xxm.jpg);
+    display: block;
+      max-width: 100%;
+      height:1200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+
+
+@media only screen and (max-width: 675px) and (min-width: 0px) {
+  .back_img_for_att {
+    background-image:url(images/attendance/attendance_xxxm.jpg);
+    display: block;
+      max-width: 100%;
+      height:1200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+
+h3 {
+  color:white !important;
+  font-weight:bold !important;
+  font-family: cursive !important; 
+}
+
+.color_white {
+  color:white;
+}
+
+
+.back_img_for_att {
+  font-family:serif;
+}
+
+@media only screen and (min-width:1200px) {
+  .back_img_for_att_spe {
+    background-image:url(images/attendance/attendance.jpg);
+    display: block;
+      max-width: 100%;
+      height:570px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+  @media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .back_img_for_att_spe {
+    background-image:url(images/attendance/attendance_sml.jpg);
+    display: block;
+      max-width: 100%;
+      height:570px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 780px) {
+  .back_img_for_att_spe {
+    background-color: wheat;
+    background-image:url(images/attendance_t_a/attendance_xm.jpg);
+    display: block;
+      max-width: 100%;
+      height:1200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+
+@media only screen and (max-width: 780px) and (min-width: 675px) {
+  .back_img_for_att_spe {
+    background-image:url(images/attendance_t_a/attendance_xxm.jpg);
+    display: block;
+      max-width: 100%;
+      height:1200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+
+
+@media only screen and (max-width: 675px) and (min-width: 0px) {
+  .back_img_for_att_spe {
+    background-image:url(images/attendance_t_a/attendance_xxxm.jpg);
+    display: block;
+      max-width: 100%;
+      height:    height: 1462px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.back_img_for_marks {
+  font-family:serif;
+}
+
+@media only screen and (min-width:1200px) {
+  .back_img_for_marks {
+    background-image:url(images/marks_s_t_a/attendance.jpg);
+    display: block;
+      max-width: 100%;
+      height:570px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+  @media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .back_img_for_marks {
+    background-image:url(images/marks_s_t_a/attendance_sml.jpg);
+    display: block;
+      max-width: 100%;
+      height:570px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 780px) {
+  .back_img_for_marks {
+    background-color: wheat;
+    background-image:url(images/marks_s_t_a/attendance_xm.jpg);
+    display: block;
+      max-width: 100%;
+      height:1200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+
+@media only screen and (max-width: 780px) and (min-width: 675px) {
+  .back_img_for_marks {
+    background-image:url(images/marks_s_t_a/attendance_xxm.jpg);
+    display: block;
+      max-width: 100%;
+      height:1200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+
+
+@media only screen and (max-width: 675px) and (min-width: 0px) {
+  .back_img_for_marks {
+    background-image:url(images/marks_s_t_a/attendance_xxxm.jpg);
+    display: block;
+      max-width: 100%;
+      height:    height: 1462px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+
+
+
+
+
+.back_img_for_home {
+  font-family:serif;
+}
+
+@media only screen and (min-width:1200px) {
+  .back_img_for_home {
+    background-image:url(images/home/attendance.jpg);
+    display: block;
+      max-width: 100%;
+      height:570px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+  @media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .back_img_for_home {
+    background-image:url(images/home/attendance_sml.jpg);
+    display: block;
+      max-width: 100%;
+      height:570px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 780px) {
+  .back_img_for_home {
+    background-color: wheat;
+    background-image:url(images/home/attendance_xm.jpg);
+    display: block;
+      max-width: 100%;
+      height:1200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+
+@media only screen and (max-width: 780px) and (min-width: 675px) {
+  .back_img_for_home {
+    background-image:url(images/home/attendance_xxm.jpg);
+    display: block;
+      max-width: 100%;
+      height:1200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+
+
+@media only screen and (max-width: 675px) and (min-width: 0px) {
+  .back_img_for_home {
+    background-image:url(images/home/attendance_xxxm.jpg);
+    display: block;
+      max-width: 100%;
+      height:    height: 1462px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center none;
+      float:center;
+  }
+}
+
+
+.home_font
+ {
+    color: #FFF ;
+    font-weight: bold ;
+    font-family: cursive ;
+}
+
+
+.placehoder_color ::placeholder{
+  opacity: 1;
+  color:red;
+}
